@@ -20,6 +20,10 @@ a {
   text-decoration: none;
 }
 
+.et-slide {
+  -webkit-text-fill-color: white;
+}
+
 .et-hero-tabs,
 .et-slide {
   display: flex;
@@ -29,6 +33,7 @@ a {
   height: 100vh;
   position: relative;
   /* background: #eee; */
+
   text-align: center;
   padding: 0 2em;
 }
