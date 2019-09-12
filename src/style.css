@@ -10,10 +10,12 @@ html {
     #283e51,
     #4b79a1
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
 }
 
 body {
   font-family: "Century Gothic", "Lato", sans-serif;
+  height: 100%;
 }
 
 #to_top_button {
