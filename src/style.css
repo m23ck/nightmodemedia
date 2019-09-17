@@ -1,10 +1,41 @@
+
+
+#brand{
+margin-left: 1.2%;
+}
+
+#brand:hover{
+
+background-color: white;
+color: rgba(0,0,0,0.9);
+}
+
+
+
 .custom-nav{
     padding-left: 1%;
     padding-right: 1%;
+    background-color: white;
 }
 
+
+
+.custom-nav a{
+    color: rgba(0,0,0,0.7);
+}
+
+.custom-nav a:hover, .custom-nav a:active{
+    color: white;
+    background-color: rgba(0,0,0,0.9);
+    
+}
 
 .custom-font{
 font-family: 'Poppins', sans-serif;
 
+}
+
+
+body{
+    background: #323c41;
 }
