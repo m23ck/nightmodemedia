@@ -9,12 +9,20 @@
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./src/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./src/style.css">
     </head>
     <body>
+      <div class="row">
+
+
         <nav>
             <div class="nav-wrapper custom-font custom-nav">
               <a href="#" class="brand-logo" id="brand">Nightmøde</a>
+
+              <a class="material-icons dropdown-trigger black-text mobile-menu" href="#" data-target="dropdown1" style="display: block;">menu</a>
+
               <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li><a class="waves-effect" href="#!">Home</a></li>
                 <li><a class="waves-effect" href="#releases">Releases</a></li>
@@ -27,6 +35,22 @@
               </ul>
             </div>
           </nav>
+
+
+          <main>
+
+            <ul id='dropdown1' class='dropdown-content'>
+              <li><a href="#!">one</a></li>
+              <li><a href="#!">two</a></li>
+              <li class="divider" tabindex="-1"></li>
+              <li><a href="#!">three</a></li>
+              <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+              <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+            </ul>
+
+
+          </main>
+        </div>
 
 
 <!-- JS -->
