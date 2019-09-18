@@ -11,6 +11,14 @@
     padding-top: 2.5%;
 }
 
+.mobile-menu:active{
+    background-color: white !important;
+    color: rgba(0,0,0,0.3) !important;
+}
+
+
+
+
 #brand{
 margin-left: 1.2%;
 }
