@@ -1,62 +1,72 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Nightmøde</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nightmøde</title>
 
     <!-- Compiled and minified CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-    <link rel="stylesheet" href="./src/style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav>
+        <div class="nav-wrapper custom-font custom-nav">
+          <a href="#" class="brand-logo" id="brand">Nightmøde</a>
 
-    </head>
-    <body>
-      <div class="wrapper">
+          <a
+            class="material-icons dropdown-trigger black-text mobile-menu"
+            href="#"
+            data-target="dropdown1"
+            style="display: block;"
+            >menu</a
+          >
 
-
-        <nav>
-            <div class="nav-wrapper custom-font custom-nav">
-              <a href="#" class="brand-logo" id="brand">Nightmøde</a>
-
-              <a class="material-icons dropdown-trigger black-text mobile-menu" href="#" data-target="dropdown1" style="display: block;">menu</a>
-
-              <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a class="waves-effect" href="#!">Home</a></li>
-                <li><a class="waves-effect" href="#releases">Releases</a></li>
-                <li><a class="waves-effect" href="#downloads">Downloads</a></li>
-                <li><a class="waves-effect" href="#tutorials">Tutorials</a></li>
-                <li><a class="waves-effect" href="#blog">Blog</a></li>
-                <li><a class="waves-effect" href="#about">About</a></li>
-                <li><a class="waves-effect" href="#contact">Contact</a></li>
-
-              </ul>
-            </div>
-          </nav>
-
-
-          <main>
-
-            <!-- Carousel New Stuff -->
-            <div class="news">
-
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/48H-sesx6TY?controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-            </div>
-
-            
-
-          </main>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a class="waves-effect" href="#!">Home</a></li>
+            <li><a class="waves-effect" href="#releases">Releases</a></li>
+            <li><a class="waves-effect" href="#downloads">Downloads</a></li>
+            <li><a class="waves-effect" href="#tutorials">Tutorials</a></li>
+            <li><a class="waves-effect" href="#blog">Blog</a></li>
+            <li><a class="waves-effect" href="#about">About</a></li>
+            <li><a class="waves-effect" href="#contact">Contact</a></li>
+          </ul>
         </div>
+      </nav>
 
+      <main>
+        <!-- Carousel New Stuff -->
+        <div class="row">
+          <div class="news col s6 offset-s3">
+            <div class="video-container">
+              <iframe
+                class="youtube-embed"
+                src="https://www.youtube.com/embed/48H-sesx6TY?controls=0"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
 
-<!-- JS -->
- <!-- Compiled and minified JavaScript -->
- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
- 
+    <!-- JS -->
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
