@@ -4,7 +4,19 @@
     height: 100%;
 } */
 
-.news{
+
+
+.block{
+    background-color: rgba(0,0,0,0.1);
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+color: white;
+}
+
+
+#news{
     margin-top: 8%;
 }
 
@@ -57,6 +69,7 @@ color: #eaa044;
     color: white;
     /* background-color: rgba(0,0,0,0.9); */
     background-color: #eaa044;
+   
     
 }
 
@@ -77,4 +90,9 @@ font-family: 'Poppins', sans-serif;
 
 body{
     background: #323c41;
+}
+
+html{
+    margin: 0%;
+    padding: 0%;
 }
